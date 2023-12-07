@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Layout from "@/components/layout";
+import style from "@/styles/nosotros.module.css";
 
 const Nosotros = () => {
 	return (
@@ -9,9 +10,9 @@ const Nosotros = () => {
 				description="Sobre nosotros, guitarLa, tienda de música "
 			>
 				<main className="contenedor">
-					<h2 className="heading">Nosotros</h2>
+					<h1 className="heading">Nosotros</h1>
 
-					<div>
+					<div className={style.contenido}>
 						<Image
 							src="/img/nosotros.jpg"
 							width={1000}
