@@ -41,6 +41,15 @@ const Header = () => {
 					>
 						Blog
 					</Link>
+
+					<Link href={"/carrito"}>
+						<Image
+							width={30}
+							height={25}
+							src="/img/carrito.png"
+							alt="imagen carrito"
+						></Image>
+					</Link>
 				</nav>
 			</div>
 		</header>
